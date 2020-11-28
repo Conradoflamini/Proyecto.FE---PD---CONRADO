@@ -1,0 +1,144 @@
+h1 .Ivy{
+
+    font-family: ivymode, sans-serif;
+    font-weight: 300;
+    font-size: 280%;
+    font-style: italic;
+    width:150%;
+    color: rgb(0, 62, 251);
+}
+h2 .Termina-regula-aboutus{ font-family: termina, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 450%;
+color:rgb(0, 62, 251);
+}
+
+.Termina-Medium{ 
+     
+    font-family: termina, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size:100% ;
+}
+.Termina-Medium-select{  
+font-family: termina, sans-serif;
+font-weight: 500;
+font-style: normal;
+font-size:100% ;
+margin-top: 2%;
+margin-bottom: 4%;
+}
+
+
+h2 .hellenic{
+    font-family: hellenic-wide-jf, serif;
+font-weight: 400;
+font-style: normal;
+font-size:150%
+}
+
+.texto-borde {
+    -webkit-text-stroke: 1px rgb(20, 20, 20); ;
+    color: transparent; 
+  }
+
+h2 .Termina-Medium{    font-family: termina, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:150% ;
+    
+    }
+
+    h2 .Termina-regular{
+        font-family: termina, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50%;
+    }
+
+
+h1 .Termina-regular{   
+     font-family: termina, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:350%;
+    }
+
+h1 .Termina-regular-blanca{  
+      font-family: termina, sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size:700%;
+        color:rgb(230, 230, 230);
+        }
+
+
+.Termina-Medium-select50{  
+    font-family: termina, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:75% ;
+    margin-top: 2%;
+    margin-bottom: 4%;
+  }
+
+  p .Termina-regular{
+    font-family: termina, sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 60%;
+}
+
+h1.Termina-Medium-Title{    font-family: termina, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:450% ;
+    
+    }
+
+h6.Termina-Denim{ font-family: termina, sans-serif;
+
+    font-weight: 600;
+    
+    font-style: normal;
+}
+
+
+h2 .Termina-regula-aboutus{ font-family: termina, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 450%;
+color:rgb(0, 62, 251);
+}
+
+
+p.Termina-Medium{    font-family: termina, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:100% ;
+    
+    }
+
+.P-Termina-Medium{    font-family: termina, sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size:150% ;
+        
+        }
+p.Termina-regular{
+        font-family: termina, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50%;
+    }
+
+a.Termina-Medium{
+    font-family: termina, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size:100% ;
+color: rgb(20, 20, 20);
+margin-right:30% ;
+}
+

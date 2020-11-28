@@ -1,0 +1,540 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+  
+    box-sizing: border-box;
+    align-items: center;
+    
+    
+}
+
+body{
+
+    background:rgb(230, 230, 230);
+    color:rgb(20, 20, 20);
+    font-size:16px;
+    width: 100%;
+    
+    
+    
+}
+
+/*menu*/
+
+header{height: 15vh;
+    width: 100%;
+    margin: auto;
+     display: flex;
+    flex-direction: row;
+align-items: center;
+justify-content: center;
+top: 0;
+background:rgb(230, 230, 230);
+z-index: 99;
+
+}
+
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
+
+
+nav {
+    font-size:14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+   
+    }
+
+.nav-logo { height:100%;
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*nav-left*/
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+nav ul li{ 
+    padding:10px;
+   
+
+
+}
+nav ul.nav-menu-lenguajes{
+    flex:1;
+    width:30%;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav ul.nav-menu-lenguajes li a:hover{
+    color:rgb(20, 20, 20);
+
+}
+nav ul.nav-menu{
+    flex:1;
+   
+    width:30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+nav ul.nav-menu li:hover{
+    
+   
+    text-decoration:line-through;
+    
+   
+    
+    
+
+}
+
+ul { 
+    list-style: none;
+  display: flex;
+}
+
+a{text-decoration: none;
+    color: rgb(0, 62, 251);
+    font-family: termina, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+
+}
+
+a.negro {text-decoration: none;
+    color: rgb(20, 20, 20);
+    
+
+}
+
+    /*main */
+
+
+main{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+   flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+
+.titulo{
+     width:100%;
+height:auto;
+display: flex;
+text-align:center;
+align-items: center;
+}
+
+h1 { margin-top: 10px;
+}
+
+
+   
+.line{ 
+    margin-bottom: 30px;
+}
+.linea {
+     display: inline-block;
+  
+
+   
+}
+
+h1 .titulo-margin {
+    margin-left:100px ;
+}
+
+/*texto y flechas*/
+nav .nav-inferior1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.socalo{
+    height: 15vh;
+    width:80%;
+    display: flex;
+   flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+
+
+.div-text{ 
+    display: flex;
+    align-content: flex-start;
+ 
+
+
+}  
+
+div a { 
+    display: flex;
+justify-content: right;
+flex-direction: row;
+align-items: center;
+width:20%
+
+;}
+   
+#text
+{
+   display: flex;
+   align-content: center;
+ 
+    transform:translate(-50%,-50%);
+  
+    font-size:10px;
+    
+    
+    animation: text-animation 20s infinite linear;
+}
+#text:hover { 
+    opacity: 0.5;
+}
+
+@keyframes text-animation{ 0% { transform:rotate(-360deg)
+    ;}
+   100% { transform:rotate(0deg);}}
+
+   .flecha-location {
+    display: flex;
+   
+    }
+
+    /*Selectwork*/
+
+.GlogarSelectWork{display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+
+
+}
+
+.selectWork{ font-size:14px;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 75%;
+    }
+
+
+
+h2{ 
+    margin-top:20px;
+}
+
+
+h2 .titulo-margin { 
+    margin-left:100px;
+}
+.cruz-location{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a.cruz{
+text-decoration: none;
+  color: rgb(20, 20, 20);
+    font-size: 40px; 
+     
+  -webkit-text-stroke: rgb(20, 20, 20); 
+     
+   display: flex; 
+     
+ padding: 0 20px; 
+ position: relative;
+ z-index: 2;
+width: 100%;
+     
+    }
+
+div#mascaritas { 
+    display: flex; 
+    justify-content: center;
+    align-content: center;
+     position: absolute;
+     opacity: 0;
+     width: 100%;
+     -webkit-transition:opacity  0.2s ;
+     -moz-transition: opacity 0.2s;
+
+}
+a.cruz:hover div#mascaritas{
+    opacity: 1;
+}
+a.cruz:hover .span#transparente{
+    -webkit-text-stroke: 1px rgb(20, 20, 20); ;
+    color: transparent; 
+  }   
+
+.trabajos{ width: 75%;
+}
+ .menu2 {
+ height: 30vh;
+ display: flex;
+   justify-content: space-between;
+  align-items: center;
+width: 100%;
+}
+    
+.encabezado {
+ width:100%;
+display: flex;
+align-items: center; justify-content: center;
+                
+            }
+    
+           
+
+.moreWork{ font-size:14px;
+                display: flex;
+                justify-content: flex-end;
+              
+                align-items: center;
+                width: 75%; 
+                margin-bottom: 4%;
+                margin-top: 4%;
+            }
+
+ .sec-random{ 
+width: 100%;
+height: 70vh;
+background-color:  rgb(0, 62, 251);
+display: flex;
+justify-content: center;
+align-items: center;
+padding-top: 20vh;}
+
+.flecha-blanca{ width: 100%;
+    height: 20vh;
+    background-color:  rgb(0, 62, 251);
+display: flex;
+justify-content:flex-end ;
+align-items: stretch;
+flex-direction: row;
+}
+.location-flecha{ margin-right: 19%;
+display: block;}
+/*ABOUT US*/
+
+
+.sec-aboutusnav{width:100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+    margin-top: 2%;
+}
+
+.icon{display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start; 
+    
+    width: 50%; 
+}
+
+/*about us main*/
+.sec-aboutus{width:100%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+align-items: center;
+   
+    
+    
+    }
+.aboutus{width: 68%;
+   
+display: flex;
+justify-content: flex-start;
+align-items: center;
+text-align: center;
+  position: absolute;
+z-index: 1;}
+/*contenedor del secction*/
+.contenedor{display: flex;
+  
+    justify-content: center;
+    align-items: center;
+
+    height: 80vh;
+    
+    width: 100%;
+  
+}
+/*tiposobre*/
+
+/*div general*/
+.fototext{  display: flex;
+    position: relative;
+    width: 100%;
+    justify-content: flex-end;
+  
+}/*imagenes*/
+.alignfoto{justify-content: flex-end;
+    flex-direction: column;
+}
+
+.foto{    display: flex;
+    position: relative;
+    width: 75%;
+    margin-left: auto;
+    margin-top: 5%;
+}
+
+.foto-1 {display: flex;
+    position: relative;
+    width: 75%;
+    margin-left: 40%;
+margin-top: 5%;}
+
+.name{   display: flex;
+    position: relative;
+    margin-left: 40%;
+    justify-content: flex-start;
+   }
+
+    .name2{   display: flex;
+        position: relative;
+        margin-left: 25%;
+        justify-content: flex-start;
+       
+     }
+
+/* zocalo de about us*/
+
+    
+.About-Contact-nav{display: flex;
+width: 100%;
+justify-content: center;
+align-items: center;
+flex-direction: row;
+
+}
+
+.aboutcontact{display: flex;
+    width: 100%;
+    
+    justify-content: flex-start;
+    text-align: center;
+    flex-direction: row;
+    
+    
+    }
+
+.aboutcontact{ width: 68%; 
+    justify-content: space-between;}
+  
+
+.contact-align{ 
+    width: 90%;
+display: flex;
+
+justify-content: space-between;}
+
+
+/* flechitarara  */
+
+.flechitarara{
+    position: absolute;
+    z-index: 2;
+    top: 80%;
+    width: 5%;
+    
+}
+.flechitarara img { 
+    width: 100%;}
+
+
+
+.sec-random2{ 
+    width: 100%;
+    height: 80vh;
+    background-color:  rgb(0, 62, 251);
+    display: flex;
+    justify-content: flex-start;
+    display: flex;
+    
+  }
+.sec-random2-text{
+    width: 90%;
+    display: flex;
+}
+
+.creditos{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: rgb(0, 62, 251);
+        }
+        
+.Workers{
+     display: flex;
+     width: 90%;
+  justify-content: space-between;
+     align-items: flex-end;
+     padding-bottom: 2%;
+                
+        }
+.submenufooter{ 
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media(max-width:800px){
+
+header{height: auto;
+        width: 100%;
+      justify-content: center;
+      align-items: center;
+    
+    }
+main{width:100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+.titulo { 
+    width:50%;
+    box-sizing:border-box;
+}
+h1{font-size:90%}
+}
+.media{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+        
